@@ -23,7 +23,7 @@ def attack(server_url, target_time, time_window):
         print("No valid token found in the given time window.")
 
 server_url = "https://example.com/web01/"
-#when the reset was believed to be triggered
+#when the reset was triggered
 target_time = int(time.time())
 #window around the target_time to account for potential inaccuracies
 time_window = 60  
