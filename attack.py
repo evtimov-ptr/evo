@@ -23,7 +23,7 @@ def find_correct_seed(server_url, target_time, time_window):
 
 server_url = "https://example.com/web01/"
 # Calculate the difference in seconds (2 hours behind, considering day difference makes it 22 hours ahead in terms of seconds)
-time_difference = 22 * 3600
+time_difference = -2 * 3600
 # Current local time in UTC
 current_utc_time = time.time()
 target_time = current_utc_time + time_difference
